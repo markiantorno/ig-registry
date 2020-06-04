@@ -1,5 +1,5 @@
 {
-  "feeds": [
+  "feeds": 
     {
       "name": "HL7.org Publications",
       "url": "http://hl7.org/fhir/package-feed.xml",
