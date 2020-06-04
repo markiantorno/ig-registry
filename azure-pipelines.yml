@@ -16,5 +16,6 @@ steps:
       import json
       
       f = open("fhir-ig-list.json","r")
-      string = f.read()
-      json_object = json.loads(string)
+      file_contents = f.read()
+      print file_contents
+      json_object = json.loads(file_contents)
